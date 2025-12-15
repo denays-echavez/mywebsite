@@ -1,0 +1,78 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: linear-gradient(to bottom, #e8f5e9, #ffffff);
+  color: #333;
+}
+
+header {
+  background-color: #1e7f3b; /* TCGC Green */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: green;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 20px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+section {
+  padding: 30px;
+  background: white;
+  margin: 30px auto;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.8s ease-in;
+}
+
+.hero {
+  text-align: center;
+  background: linear-gradient(to right, #1e7f3b, #4caf50);
+  color: white;
+  padding: 60px 30px;
+  border-radius: 0 0 30px 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1e7f3b; /* TCGC Green */
+  color:white;
+  letter-spacing: 1px;
+}
+
+/* Headings styling */
+h1, h2 {
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: #1e7f3b;
+}
+
+/* List styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background: #e8f5e9;
+  margin: 10px 0;
+  padding: 12px 18px;
+  border-left: 6px solid #1e7f3b;
+  border-radius: 8px;
+}

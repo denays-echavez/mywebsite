@@ -1,0 +1,65 @@
+
+/* Remove page rotation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+
+    background-image: url("login.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Container for title + login box */
+.container {
+    background: rgba(43, 80, 31, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+}
+
+/* Title */
+.title {
+    margin-bottom: 20px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+/* Login inputs */
+.login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #888;
+    font-size: 16px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #4CAF50;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #45a049;
+}
+}
+
+button:hover {
+    background: #45a049;
+}
